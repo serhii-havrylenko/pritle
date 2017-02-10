@@ -1,5 +1,3 @@
-
-
 # General information
 
 Basically there are two ways how to implement inheritance in javascript:
