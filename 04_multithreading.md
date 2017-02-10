@@ -19,6 +19,34 @@ Basically event loop works like:
 
 The best explanation(without words, only worked code with detailed visualization) how even loop works in JavaScript could be found [here ](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D) . It shows exact order of all events in real time with detailed info about call stack, web APIs and callback queue.
 
+
+Here is another basic example of event loop and how web APIs + callback works:
+```javascript
+(function() {
+
+  console.log('this is the start');
+
+  setTimeout(function cb() {
+    console.log('this is a msg from call back1');
+  });
+
+  console.log('this is just a message');
+
+  setTimeout(function cb1() {
+    console.log('this is a msg from call back2');
+  }, 0);
+
+  console.log('this is the end');
+
+})();
+
+// "this is the start"
+// "this is just a message"
+// "this is the end"
+// "this is a msg from call back1"
+// "this is a msg from call back2"
+```
+
 ## Multithreading
 
 Multithreading in JavaScript can be achieved using callbacks calls. In general it won't be a classical multithreading with ability to start/stop/pause/resume processes.
