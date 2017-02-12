@@ -10,7 +10,7 @@ Detailed plan on building Access control system.
 
 Here is basic part of database structure which is required for getting app works:
 
-![alt text][https://github.com/serhii-havrylenko/pritle/blob/master/database_structure.png]
+![Database structure](https://github.com/serhii-havrylenko/pritle/blob/master/database_structure.png)
 
 Related on this database structure appropriate REST API should be created. CRUD operations on each table should be added.
 All other business logic will be realized on client side.
@@ -19,7 +19,7 @@ All other business logic will be realized on client side.
 
 Here is general use cases for required app:
 
-![alt text][use_cases.png]
+![Use cases]https://github.com/serhii-havrylenko/pritle/blob/master/use_cases.png)
 
 Depends on it appropriate functionality will be realized.
 
@@ -27,4 +27,4 @@ Depends on it appropriate functionality will be realized.
 
 Here is general classes diagram, it could be changed during app realization, however all these classes and methods will help with app development:
 
-![alt text][classes.png]
+![Classes diagram]https://github.com/serhii-havrylenko/pritle/blob/master/classes.png)
