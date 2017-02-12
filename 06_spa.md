@@ -10,7 +10,7 @@ Detailed plan on building Access control system.
 
 Here is basic part of database structure which is required for getting app works:
 
-![alt text][database_structure.png]
+![alt text][https://github.com/serhii-havrylenko/pritle/blob/master/database_structure.png]
 
 Related on this database structure appropriate REST API should be created. CRUD operations on each table should be added.
 All other business logic will be realized on client side.
