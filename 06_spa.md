@@ -19,7 +19,7 @@ All other business logic will be realized on client side.
 
 Here is general use cases for required app:
 
-![Use cases]https://github.com/serhii-havrylenko/pritle/blob/master/use_cases.png)
+![Use cases](https://github.com/serhii-havrylenko/pritle/blob/master/use_cases.png)
 
 Depends on it appropriate functionality will be realized.
 
@@ -27,4 +27,4 @@ Depends on it appropriate functionality will be realized.
 
 Here is general classes diagram, it could be changed during app realization, however all these classes and methods will help with app development:
 
-![Classes diagram]https://github.com/serhii-havrylenko/pritle/blob/master/classes.png)
+![Classes diagram](https://github.com/serhii-havrylenko/pritle/blob/master/classes.png)
